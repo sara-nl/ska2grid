@@ -1,0 +1,11 @@
+[
+JobType = "Normal";
+Executable = "wrapper.sh";
+InputSandbox = {"wrapper.sh", "email.txt"};
+Stdoutput = "stdout";
+StdError = "stderror";
+OutputSandbox = {"stdout", "stderror"};
+OutputSandboxBaseDestURI = "gsiftp://localhost";
+RetryCount = 0;
+ShallowRetryCount = 0;
+]
