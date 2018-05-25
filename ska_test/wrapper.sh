@@ -24,7 +24,8 @@ echo ${PWD}
 
 # run the application
 #cat /etc/centos-release
-#ls /cvmfs/softdrive.nl/lofar_sw/
+ls /cvmfs/softdrive.nl/lofar_sw/
+ls /cvmfs/skatelescope.eu/
 sendmail [add your email HERE] < email.txt
 
 # copy the output to the Grid storage 
